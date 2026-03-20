@@ -16,7 +16,17 @@ chmod +x setup_rollup.sh
 ```
 ### rollup
 
-rollup.config.js
+## rollup.config.js :
+
+```
+export default {
+	input: 'src/index.js',
+	output: {
+		file: 'public/bundle.js',
+		format: 'cjs'
+	}
+};
+```
 
 el archivo anterior es donde <br>
 se define la entrada y la salida<br>
