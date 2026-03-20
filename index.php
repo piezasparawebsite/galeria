@@ -14,7 +14,7 @@
 			rel="stylesheet"
 		/>
 		<link rel="stylesheet" href="public/bundle.css" />
-		<?php echo b ('script type="module" src="./src/index.js" defer||script'); ?>
+		<?php echo b ('script type="module" src="./public/bundle.js" defer||script'); ?>
 		<title>Mi viaje por el mundo</title>
 	</head>
 	<body>
