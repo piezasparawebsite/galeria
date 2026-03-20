@@ -3,11 +3,14 @@
 
 ## phpframe.work -> coming soon !
 
-### Funciones (herramientas.php)
+### Funciones (herramientas.php) Optional
 
 d() coloca ~ o acento 
 
 b() crea elementos html
+
+elimina las funciones anteriores del index<br>
+para que el proyecto funcione
 
 ## configuracion y compilacion
 ```
