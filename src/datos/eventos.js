@@ -1,3 +1,4 @@
+import fotos from 'datos/fotos.js';
 const contenedorCat = document.getElementById('categorias');
 const galeria = document.getElementById('galeria');
 
