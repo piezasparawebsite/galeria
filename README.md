@@ -13,6 +13,11 @@ elimina las funciones anteriores del index<br>
 para que el proyecto funcione
 
 ## configuracion y compilacion
+<p>
+Conocimiento basico de rollup es<br>
+necesario para poder instalar <br>
+este proyecto
+</p>
 ```
 chmod +x setup_rollup.sh
 ./setup_rollup.sh
