@@ -1,4 +1,7 @@
-<?php require_once "../../a/herramientas.php"; ?>
+<?php 
+	require_once "../../a/herramientas.php"; 
+	require_once "../../componentes/header.php";
+?>
 <!DOCTYPE html>
 <html lang="en">
 	<head>
@@ -18,12 +21,15 @@
 		<title>Mi viaje por el mundo</title>
 	</head>
 	<body>
+		<!--
 		<header>
 			<div class="hero">
-				<h3 class="hero__subtitulo">Ramiro Garc<?php echo d('i'); ?>a Gonz<?php echo d('a'); ?>lez</h3>
+				<h3 class="hero__subtitulo">Ramiro Garc<?php #echo d('i'); ?>a Gonz<?php #echo d('a'); ?>lez</h3>
 				<h1 class="hero__titulo">Mi viaje por el mundo</h1>
 			</div>
 		</header>
+		-->
+		<?php echo HEADER; ?>
 		<main>
 			<div class="contenedor">
 				<div class="categorias" id="categorias">
